@@ -1,0 +1,105 @@
+/* Write your CSS here */
+.latest-match-card-container {
+  width: 90%;
+}
+.latest-heading {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+.latestmatch-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  border-radius: 12px;
+  padding: 10px 15px;
+}
+.match-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #ffffff;
+}
+.latest-match-details {
+  font-family: 'Bree Serif';
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #ffffff;
+}
+.match-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0px;
+  text-align: left;
+}
+.match-date,
+.match-venue,
+.match-result {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0px;
+  text-align: left;
+}
+.match-logo-img {
+  width: 100px;
+  height: 100px;
+}
+.match-info {
+  margin: 0px;
+}
+.match-label-innings {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+.match-text-innings {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .latestmatch-card {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .match-logo-container {
+    width: 60%;
+    border: none;
+  }
+  .latest-match-details {
+    width: 50%;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .latest-match-info {
+    align-items: flex-end;
+    text-align: right;
+  }
+  .match-name {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .match-date,
+  .match-venue,
+  .match-result {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .match-label-innings {
+    font-size: 18px;
+  }
+  .match-text-innings {
+    font-size: 16px;
+  }
+  .match-logo-img {
+    width: 180px;
+    height: 180px;
+  }
+}
